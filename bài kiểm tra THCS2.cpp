@@ -4,7 +4,7 @@ using namespace std;
 
 void NhapMang(int a[], int n)
 {
- int i = 0;
+ int I = 0;
     while (i < n)
     {
         std::cout << "Nhập giá trị phần tử thứ " << i + 1 << ": ";
