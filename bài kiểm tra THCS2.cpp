@@ -7,8 +7,8 @@ void NhapMang(int a[], int n)
  int I = 0;
     while (i < n)
     {
-        std::cout << "Nhập giá trị phần tử thứ " << i + 1 << ": ";
-        std::cin >> a[i];
+        std::cin>>a[i];
+        std::cout << "Nhập giá trị phần tử thứ " << i + 1 << ": "
         i++;
 }
 }
